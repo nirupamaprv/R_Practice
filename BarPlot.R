@@ -53,7 +53,7 @@ print(data)
 #creating side-by-side bar plots using differnt colors
 #First, set colors
 colours <- c("orange", "green", "blue", "yellow", "purple", "red", "black")
-#plot a bar chart of the four variables, with adjacent bars, 
+#plot a bar chart of the seven variables, with adjacent bars, 
 #using the as.matrix() command and the argument beside = T.
 barplot(as.matrix(data), main="Time Analysis", ylab = "Hours", cex.lab = 1.5, cex.main = 1.4, beside=TRUE, col=colours)
 
